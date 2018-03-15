@@ -32,6 +32,7 @@ libsodium_la_SOURCES = \
 	crypto_hash/sha512/hash_sha512.c \
 	crypto_hash/sha512/cp/hash_sha512_cp.c \
 	crypto_kdf/blake2b/kdf_blake2b.c \
+	crypto_kdf/ed25519/kdf_ed25519.c \
 	crypto_kdf/crypto_kdf.c \
 	crypto_kx/crypto_kx.c \
 	crypto_onetimeauth/crypto_onetimeauth.c \

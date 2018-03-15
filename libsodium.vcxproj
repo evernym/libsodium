@@ -358,6 +358,7 @@
     <ClCompile Include="src\libsodium\crypto_auth\hmacsha256\auth_hmacsha256.c" />
     <ClCompile Include="src\libsodium\crypto_kdf\crypto_kdf.c" />
     <ClCompile Include="src\libsodium\crypto_kdf\blake2b\kdf_blake2b.c" />
+    <ClCompile Include="src\libsodium\crypto_kdf\ed25519\kdf_ed25519.c" />
     <ClCompile Include="src\libsodium\crypto_shorthash\crypto_shorthash.c" />
     <ClCompile Include="src\libsodium\crypto_shorthash\siphash24\shorthash_siphash24.c" />
     <ClCompile Include="src\libsodium\crypto_shorthash\siphash24\shorthash_siphashx24.c" />
@@ -473,6 +474,7 @@
     <ClInclude Include="src\libsodium\include\sodium\crypto_stream_xsalsa20.h" />
     <ClInclude Include="src\libsodium\include\sodium\crypto_core_hsalsa20.h" />
     <ClInclude Include="src\libsodium\include\sodium\crypto_kdf_blake2b.h" />
+    <ClInclude Include="src\libsodium\include\sodium\crypto_kdf_ed25519.h" />
     <ClInclude Include="src\libsodium\include\sodium\crypto_scalarmult_curve25519.h" />
     <ClInclude Include="src\libsodium\include\sodium\crypto_shorthash.h" />
     <ClInclude Include="src\libsodium\include\sodium\crypto_pwhash_argon2id.h" />
